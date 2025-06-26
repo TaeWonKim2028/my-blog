@@ -1,0 +1,145 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 9999;
+}
+
+.header__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%; /* ✅ 높이 고정 */
+  display: flex;
+  align-items: center; /* ✅ 수직 가운데 정렬 */
+  justify-content: space-between;
+  padding: 0 40px; /* ✅ 상하 패딩 제거, 좌우만 유지 */
+}
+
+.logo {
+  height: 50px;
+  max-height: 50px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 64px;
+  }
+
+  .header__inner {
+    padding: 12px 24px;
+  }
+}
+
+/* PC 네비바 */
+.desktop-nav {
+  display: flex;
+}
+
+.desktop-nav__list {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desktop-nav__item {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--header-text-color);
+  transition: color 0.2s;
+}
+
+.desktop-nav__item:hover {
+  color: var(--link-hover-color);
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
+/* PC 네비바 */
+
+.header__icons {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.header__icons div {
+  display: flex;
+  cursor: pointer;
+}
+
+.header__menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header__menu-toggle {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* MOBILE 네비바 */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  background: var(--mobile-menu-bg);
+  color: var(--mobile-menu-text-color);
+}
+
+.mobile-menu__header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.mobile-menu__logo {  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mobile-menu__logo img {  
+  object-fit: cover;
+}
+
+.mobile-menu__nav {
+  list-style: none;
+  padding: 4rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mobile-menu__nav li {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* MOBILE 네비바 */
+
+
+
+
+
+
+
+

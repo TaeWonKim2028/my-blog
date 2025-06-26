@@ -1,0 +1,138 @@
+/* globals.css */
+
+:root {
+  --bg-color: #f8f9fa;
+  --text-color: #212529;
+  --card-bg: #ffffff;
+  --border-color: #e0e0e0;
+  --header-bg: #ffffff;
+  --header-text-color: #212529;
+  --footer-bg: #ffffff;
+  --footer-text-color: #212529;
+  --btn-bg: #0D1B2A;
+  --btn-color: #ffffff;
+  --btn-hover-color: #13293D;
+}
+
+/* 기본 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* 레이아웃 */
+.main-wrapper {
+  padding: 30px;
+}
+
+.hero-section__card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--card-bg);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 28px 34px;
+  gap: 24px;
+}
+
+.hero-section__text-content {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-section__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero-section__intro {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.btn-primary {
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--btn-hover-color);
+}
+
+.input-text {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  width: 100%;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.post-item {
+  background: var(--card-bg);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.post-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.post-content {
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  font-size: 0.875rem;
+  color: gray;
+}
+
+.empty-message {
+  padding: 2rem;
+  text-align: center;
+  color: #999;
+}
+
+:root {
+  --header-bg: white;
+  --header-text-color: black;
+  --link-hover-color: black;
+  --mobile-menu-bg: white;
+  --mobile-menu-text-color: black;
+  
+}
+
+.dark {
+  --header-bg: #1e1e1e;
+  --header-text-color: #ffffff;
+  --link-hover-color: white;
+  --mobile-menu-bg: #121212;
+  --mobile-menu-text-color: white;
+}
