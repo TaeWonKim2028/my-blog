@@ -1,4 +1,5 @@
 import { Header } from '../components/Header/Header';
+import { Footer } from '../components/Footer/Footer';
 
 
 export function PostList() {
@@ -26,6 +27,7 @@ export function PostList() {
           🚧 메인페이지는 현재 작업중에 있습니다 🚧
         </p>
       </main>
+      <Footer />
     </>
   );
 }

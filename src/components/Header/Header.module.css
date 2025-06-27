@@ -69,11 +69,13 @@
 .header__icons {
   display: flex;
   column-gap: 1rem;
+
 }
 
 .header__icons div {
   display: flex;
   cursor: pointer;
+  
 }
 
 .header__menu-toggle {

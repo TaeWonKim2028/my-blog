@@ -130,9 +130,9 @@ body {
 }
 
 .dark {
-  --header-bg: #1e1e1e;
+  --header-bg: #1b1426;
   --header-text-color: #ffffff;
   --link-hover-color: white;
-  --mobile-menu-bg: #121212;
+  --mobile-menu-bg: #1b1426;
   --mobile-menu-text-color: white;
 }

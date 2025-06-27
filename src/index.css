@@ -20,7 +20,7 @@
 }
 
 .dark {
-  --header-bg: #242424;
+  --header-bg: #2d213d;
   --border-color: #444;
   --header-text-color: #fff;
   --link-hover-color: #aaa;
@@ -28,7 +28,7 @@
   --mobile-menu-text-color: #fff;
 
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #2d213d;
 }
 
 a {

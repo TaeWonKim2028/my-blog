@@ -69,9 +69,9 @@ export function Header() {
               title="Toggle theme"
             >
               {isDark ? (
-                <MdOutlineLightMode size={22} color="white" />
+                <MdOutlineLightMode size={30} color="white" />
               ) : (
-                <MdOutlineDarkMode size={22} />
+                <MdOutlineDarkMode size={30} />
               )}
             </div>
 
