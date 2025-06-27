@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem 0;
+    }
+}
+
+.container h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.container img {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container img {
+        max-width: 8rem;
+    }
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f2e6da;
+  background-color: #211c32;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #211c32;
+}
+
+@media (max-width: 768px) {
+    .button {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
