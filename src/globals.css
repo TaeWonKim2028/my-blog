@@ -30,7 +30,10 @@ body {
 
 /* 레이아웃 */
 .main-wrapper {
-  padding: 30px;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 90px;
 }
 
 .hero-section__card {
